@@ -6,5 +6,6 @@ public class PurchaseOrderTest {
 	@Test
 	public void createPurchaseOrder() {
 		System.out.println("created purchase order");
+		System.out.println("purchase order deleted");
 	}
 }
