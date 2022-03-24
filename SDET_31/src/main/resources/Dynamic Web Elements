@@ -1,0 +1,28 @@
+Leads and organizations
+
+Identify 3rd row 3rd column
+//table[@class='lvt small']/tbody/tr[3]/td[3]
+
+Identify 5th row 4th column
+//table[@class='lvt small']/tbody/tr[5]/td[4]
+
+Identify last row and last column
+//table[@class='lvt small']/tbody/tr[last()]/td[last()]
+
+Idenify all records of 3rd row
+//table[@class='lvt small']/tbody/tr[*]/td[last()]
+
+Identify all the data of the table
+//table[@class='lvt small']/tbody/tr[*]/td[*]
+
+Identify phone of all records // if name is given count the columns and write in td
+//table[@class='lvt small']/tbody/tr[*]/td[6]
+
+Identify lastname of all records
+//table[@class='lvt small']/tbody/tr[*]/td[3]
+
+Identify phone of Taylor
+//table[@class='lvt small']/tbody/tr[contains(.,'Taylor')]/td[6]
+
+Identify email of Margaret
+//table[@class='lvt small']/tbody/tr[contains(.,'Margaret')]/td[8]

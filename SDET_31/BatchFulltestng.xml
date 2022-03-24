@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.crm.autodeskselenium.Contact.TC_13Test"/>
+      <class name="com.crm.autodeskselenium.Contact.TC_12Test"/>
+      <class name="com.crm.autodesk.POMpages.Scenarios_7_Mar.CreateCampaignChooseProductTest"/>
+      <class name="com.crm.autodesk.POMpages.Scenarios_7_Mar.CreateContactChooseOrgTest"/>
+      <class name="com.crm.autodeskselenium.PurchaseOrder.CreatePurchaseOrderWithVendorTest"/>
+      <class name="com.crm.autodesk.POMpages.Scenarios_7_Mar.CreateOrganizationTest"/>
+      <class name="com.crm.autodesk.POMpages.Scenarios_7_Mar.CreateProductTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
