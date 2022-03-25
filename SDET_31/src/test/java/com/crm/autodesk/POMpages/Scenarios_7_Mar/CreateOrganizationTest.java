@@ -56,7 +56,10 @@ public class CreateOrganizationTest extends BaseClass {
 		// verify organization Information
 		OrgInfoPage verifyHeader= new OrgInfoPage(driver);
 		String actHeaderMessage = verifyHeader.verifyHeaderText();
-		Assert.assertEquals(actHeaderMessage.contains(orgName), true);
+		Assert.assertTrue(actHeaderMessage.contains(orgName), "organization name not updated");
+		
+		
+		
 		// logout function
 
 	}
