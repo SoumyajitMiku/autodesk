@@ -35,6 +35,8 @@ public class CreateProductTest extends BaseClass {
 		ProductInfoPage verifyInfo = new ProductInfoPage(driver);
 
 		String actHeaderMessage = verifyInfo.verifyHeaderText();
+		
+		/*Assertion for validation*/
 		Assert.assertTrue(actHeaderMessage.contains(ProductName),"product is not updated");
 		// logout function
 
